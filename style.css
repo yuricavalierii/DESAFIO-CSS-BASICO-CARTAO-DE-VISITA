@@ -6,7 +6,7 @@ body{
 .cartao{
     width: 400px;
     height: 200px;
-    /* box-sizing: border-box; */  
+    /* box-sizing: border-box;   */
     background-image: url("./image/backgroundcartao.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,23 +25,35 @@ a{
     color: rgb(54, 54, 253);
 }
 
+ul{
+    padding: 0;
+}
 
-/* SE ALGUEM SOUBER COMO EU FAÇO PARA MODIFICAR O TAMANHO DAS IMAGENS AGRADEÇO DEMAIS*/
+li{
+    margin: 0;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
 
-/* .insta{
-    list-style-image: url("./image/logoinsta.jfif");
-} */
+.insta{
+    background-image: url("./image/logoinsta.jfif");
+}
 
-/* .email{
-    list-style-image: url("./image/email.png");
-} */
+.email{
+    background-image: url("./image/email.png");
+}
 
-/* .whats{
-    list-style-image: url("./image//whats.jfif");
-} */
+.whats{
+    background-image: url("./image/whats.jfif");
+}
 
-/* .github{
-    list-style-image: url("./image//whats.jfif");
-} */
+.github{
+    background-image: url("./image/logogithub.png");
+}
+
 
 
